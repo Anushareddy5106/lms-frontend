@@ -5,7 +5,7 @@
 
   <div class="row">
     <div class="col-md-4" *ngFor="let query of queries">
-      <div class="card mb-4 shadow-sm" [ngClass]="{'resolved': query.status, 'unresolved': !query.status}">
+      <div class="card mb-4 shadow-sm" >
         <div class="card-body">
           <h3 class="card-title">Query ID: {{ query.queryId }}</h3>
           <p class="card-text">Query Text: {{ query.description}}</p>

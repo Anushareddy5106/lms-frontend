@@ -11,6 +11,8 @@ import { CourselisttrueComponent } from './components/courselisttrue/courselistt
 import { MentorListComponent } from './components/mentorlist/mentorlist.component';
 import { NewJoinerListComponent } from './components/newjoinerlist/newjoinerlist.component';
 import { StudentQueriesComponent } from './components/studentqueries/studentqueries.component';
+import { NewJoinerDashboardComponent } from './components/new-joiner-dashboard/new-joiner-dashboard.component';
+import { CourseliststudentComponent } from './components/courseliststudent/courseliststudent.component';
 
 export const routes: Routes = [
     { path: '', component: AdminDashboardComponent },
@@ -21,7 +23,11 @@ export const routes: Routes = [
     { path: 'courselisttrue', component: CourselisttrueComponent },
     { path: 'mentorlist', component: MentorListComponent },
     { path: 'newjoinerlist', component: NewJoinerListComponent },
-    { path: 'studentqueries', component: StudentQueriesComponent },
+    { path: 'student-queries', component: StudentQueriesComponent },
+    { path: 'newJoinerDashboard', component: NewJoinerDashboardComponent },
+    { path: 'courselistStudent', component: CourseliststudentComponent },
+
+
 ];
 
 @NgModule({
